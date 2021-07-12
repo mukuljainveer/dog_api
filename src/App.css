@@ -1,0 +1,80 @@
+.nav-vertical {
+  background-color: black;
+  width: 80px;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  height: 100%;
+  z-index: 1;
+}
+
+ul.nav-ul li {
+  position: relative;
+  margin: 0px;
+  left: -39px;
+  width: 79px;
+}
+
+.nav-ul{
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-btn{
+
+}
+.search-btn {
+  padding: 12px!important;
+  font-size: 21px!important;
+  border-left: 2px solid #e2d3d3!important;
+}
+.nav-ul-bottom{
+  position: absolute;
+  bottom: 0px;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+ul.nav-ul-bottom li {
+  position: relative;
+  margin: 0px;
+  left: -39px;
+  width: 79px;
+}
+
+.icon-text{
+  font-size: 12px;
+}
+
+.nav-icon-selected{
+  color: orange!important;
+}
+
+.pageHeader{
+  height: 71px;
+  margin: 0px 22px 0px 109px;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.contentContainer{
+  position: relative;
+  margin: 0px;
+  padding-left: 106px;
+  top: 20px;
+  width: 99%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: black!important;
+  font-weight: bold;
+  background-color: #f3bc2f!important;
+}
+
+ul.nav-ul>a>li>div {
+  color: white;
+}
+
